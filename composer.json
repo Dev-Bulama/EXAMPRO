@@ -1,0 +1,17 @@
+{
+    "name": "exampro/platform",
+    "description": "Production-ready ExamPro Online Exam Management System",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:8000 public/index.php"
+    }
+}
